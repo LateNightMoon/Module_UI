@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wharton.ui.weight.GridTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxLength="6"
+        app:pointColor="#666666"
+        app:pointRadius="6dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeRadius="6dp"
+        app:strokeWidth="1dp"
+        app:text="我知道这件事"
+        app:textColor="#000000"
+        app:textSize="16sp" />
+
+
+</android.support.constraint.ConstraintLayout>
