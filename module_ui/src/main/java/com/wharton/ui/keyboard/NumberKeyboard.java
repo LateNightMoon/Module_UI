@@ -95,7 +95,9 @@ public class NumberKeyboard extends KeyboardView implements KeyboardView.OnKeybo
             }
         } else if (primaryCode != KEYCODE_EMPTY) {
             String text = Character.toString((char) primaryCode);
-            mTextView.append(text);
+            if(mTextView!=null){
+                mTextView.append(text);
+            }
         }
     }
 
@@ -203,7 +205,6 @@ public class NumberKeyboard extends KeyboardView implements KeyboardView.OnKeybo
             deleteKeySrc.draw(canvas);
         }
     }
-
 
     /**
      * 0-9 数字的 Character 值
