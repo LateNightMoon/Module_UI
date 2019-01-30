@@ -9,10 +9,16 @@
         <attr name="pointRadius" format="dimension" />
         <attr name="textColor" format="color" />
         <attr name="textSize" format="dimension" />
-        <attr name="text" format="string" />
-        <attr name="inputType">
+        <attr name="textType">
             <enum name="text" value="1" />
-            <enum name="password" value="2" />
+            <enum name="point" value="2" />
         </attr>
+    </declare-styleable>
+    <declare-styleable name="NumberKeyboard">
+            <attr name="deleteKeySrc" format="reference" />
+            <attr name="deleteKeyWidth" format="dimension|reference" />
+            <attr name="deleteKeyHeight" format="dimension|reference" />>
+            <attr name="deleteKeyBackgroundColor" format="color|reference" />
+            <attr name="emptyKeyBackgroundColor" format="color|reference" />
     </declare-styleable>
 </resources>
